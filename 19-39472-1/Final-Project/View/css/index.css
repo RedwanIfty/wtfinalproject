@@ -1,0 +1,30 @@
+body {margin:0;
+background-image: url("../../Model/Plane.PNG");
+background-size: cover;
+}
+h1{
+  text-align: center;
+  font-style: italic;
+}
+.navbar {
+  overflow: hidden;
+  background-color:skyblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: blue;
+  color: black;
+}
